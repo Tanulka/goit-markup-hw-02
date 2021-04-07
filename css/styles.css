@@ -1,0 +1,104 @@
+/* основной текст страницы #757575 */
+/* цвет заголовков #212121 */
+/* цвет лого 1 - #2196F3
+               2 - #000000 */
+/* цвет нав #212121 */
+/* акцент #2196F3
+белый #FFFFFF */
+/* фон шапки #FFFFFF */
+/* фон футтера и сеции герой #2F303A */
+/* фон команда #F5F4FA */
+/* основной фон #FFFFFF */
+/* контакты color: rgba(255, 255, 255, 0.6); */
+/* cсылки в футере #FFFFFF
+адрес FFFFFF 60%  */
+
+:root {
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* навигация сайта */
+.logo {
+  color: #2196f3;
+}
+
+.logo .logo-header-word {
+  color: #000000;
+}
+.logo:hover,
+.logo:hover .logo-header-word,
+.logo:focus {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contact .contact-link {
+  color: var(--primary-text-color);
+}
+.contact .contact-link:hover,
+.contact .contat-link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero .hero-title {
+  color: #ffffff;
+}
+.hero .hero-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* Преимущества */
+.advantage .advantage-title {
+  color: var(--title-text-color);
+}
+/* Примеры работ */
+.section .section-title {
+  color: var(--title-text-color);
+}
+/* Команда */
+.command {
+  background-color: #f5f4fa;
+}
+.list .list-card {
+  background-color: #ffffff;
+}
+.list .list-caption {
+  color: var(--title-text-color);
+}
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer-word {
+  color: #ffffff;
+}
+.list .list-link {
+  color: rgba(100%, 100%, 100%, 60%);
+}
+.list .list-link:hover,
+.list-focus {
+  color: #ffffff;
+}
