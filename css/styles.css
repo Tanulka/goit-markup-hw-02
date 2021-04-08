@@ -30,6 +30,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.headline {
+  display: none;
+}
 .list {
   list-style: none;
 }
@@ -42,7 +45,6 @@ body {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
 }
-
 .logo .logo-header-word {
   color: #000000;
 }
@@ -85,7 +87,7 @@ body {
   text-transform: uppercase;
 }
 .hero .hero-button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -119,7 +121,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
-
 /* Подвал */
 .footer {
   background-color: var(--secondary-bg-color);
@@ -136,4 +137,31 @@ body {
 .list .list-link:hover,
 .list-focus {
   color: var(--primary-white-color);
+}
+/* Портфолио */
+.btn {
+  background-color: var(--grey-bg-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.porfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }
