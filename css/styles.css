@@ -12,7 +12,6 @@
 /* контакты color: rgba(255, 255, 255, 0.6); */
 /* cсылки в футере #FFFFFF
 адрес FFFFFF 60%  */
-
 :root {
   --primary-text-color: #757575;
   --accent-color: #2196f3;
@@ -36,7 +35,6 @@ body {
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
@@ -45,13 +43,8 @@ body {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
 }
-.logo .logo-header-word {
+.logo-header-word {
   color: #000000;
-}
-.logo:hover,
-.logo:hover .logo-header-word,
-.logo:focus {
-  color: var(--accent-color);
 }
 .site-nav .link {
   color: var(--title-text-color);
