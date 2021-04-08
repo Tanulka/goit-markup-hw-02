@@ -17,10 +17,18 @@
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --grey-bg-color: #f5f4fa;
+  --main-font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -32,6 +40,7 @@ body {
 /* навигация сайта */
 .logo {
   color: #2196f3;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo .logo-header-word {
@@ -43,7 +52,7 @@ body {
   color: var(--accent-color);
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -61,44 +70,70 @@ body {
 }
 /* Герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
+}
+.hero-text {
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
 }
 .hero .hero-title {
-  color: #ffffff;
+  font-family: var(--main-font-family);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 .hero .hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
   background-color: var(--accent-color);
-  color: #ffffff;
 }
 /* Преимущества */
 .advantage .advantage-title {
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
-/* Примеры работ */
+/* Примеры работ и команда h2 */
 .section .section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   color: var(--title-text-color);
 }
 /* Команда */
 .command {
-  background-color: #f5f4fa;
+  background-color: var(--grey-bg-color);
 }
 .list .list-card {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
 }
 .list .list-caption {
   color: var(--title-text-color);
 }
+.list-card .card-info {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /* Подвал */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .logo-footer-word {
   color: #ffffff;
+}
+.address {
+  font-style: inherit;
 }
 .list .list-link {
   color: rgba(100%, 100%, 100%, 60%);
 }
 .list .list-link:hover,
 .list-focus {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
