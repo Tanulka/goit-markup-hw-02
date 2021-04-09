@@ -65,6 +65,9 @@ body {
 }
 .contact .contact-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact .contact-link:hover,
 .contact .contat-link:focus {
