@@ -42,12 +42,19 @@ body {
 .logo {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-header-word {
   color: #000000;
 }
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -89,9 +96,12 @@ body {
 }
 /* Преимущества */
 .advantage .advantage-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+  font-family: var(--main-font-family);
+  font-weight: 700;
 }
 /* Примеры работ и команда h2 */
 .section .section-title {
@@ -127,8 +137,7 @@ body {
 .list .list-link {
   color: rgba(100%, 100%, 100%, 60%);
 }
-.list .list-link:hover,
-.list-focus {
+.list .list-address {
   color: var(--primary-white-color);
 }
 /* Портфолио */
